@@ -1,37 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>CSS - Goku</title>
-
-  <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Jobs</title>
 </head>
-
 <body>
-  <div class="menu">
-    <img src="https://vagaemprego.com.br/wp-content/uploads/2019/07/emprego-13-13-.png" width="48px" alt="logo empresa"
-      style="padding: 5px 20px;">
-    <div class="links">
-      <a href="#">Inicio</a>
-      <a href="#">Contato</a>
-      <a href="#">Sobre nós</a>
-    </div>
-  </div>
-
-  <div class="container">
-    <h1>Procura-se profissionais com conhecimento em HTML e CSS</h1>
-    <h2>Vagas Escassas</h2>
-
-    <img src="https://cdn-istoe-ssl.akamaized.net/wp-content/uploads/sites/14/2016/01/mi_7874762448044230.jpg"
-      alt="Homem em busca de oportunidades">
     <div>
-      Para mais informações
-      <a href="https://heroway.com.br">clique aqui!</a>
+        <header class="header-footer">
+            <nav>
+                <span class="logo">
+                    <img src="img/LogoMakr.png" alt="Logo" />
+                </span>
+                <span class="align-item-menu">
+                    <a href="">Página Inicial</a>
+                    <a href="">Quem somos</a>
+                    <a href="">Contato</a>
+                </span>
+            </nav>
+        </header>    
     </div>
-  </div>
+    <div class="top-content">
+        <section>
+            <span>
+                <img class="main-img" src="img/WeWantYouInOurTeam.png" alt="We Want You In Our Team">
+            </span>
+            <span class="main-content">
+                <h1 class="main-tittle">
+                    Nós precisamos de profissionais com conhecimento em HTML e CSS!
+                </h1> 
+                <h2 class="main-text">
+                    Se você é um profissional criativo e buscando desafios, nós da Heroway, 
+                    queremos você em nosso time!
+                </h2>   
+            </span>
+        </section>
+        <section class="main-form">
+            <div>
+                <h1 class="form-title">
+                    Faça parte do time! Envie seus dados para contato!
+                </h1>    
+            </div>
+            <div class="main-form">
+                <form>
+                    <table class="align-center">
+                        <tr>
+                            <td>
+                                <label for="">Nome</label>
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="">E-mail</label>
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="">Telefone</label>
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                    </table>
+                    <div>
+                        <button class="btn-send" type="submit">
+                            Enviar
+                        </button>
+                    </div>
+                </form>    
+            </div>
+        </section>
+    </div>
+    <div>
+        <footer class="header-footer">
+            <h1 class="footer-text">
+                <a class="heroway-link" href="heroway.com.br">©Heroway</a>
+            </h1>
+            <h2 class="footer-text">
+                Acesse Heroway clicando acima.
+            </h2>
+        </footer>    
+    </div>
 </body>
-
 </html>
