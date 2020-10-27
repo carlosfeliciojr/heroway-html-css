@@ -1,0 +1,70 @@
+.section-build-with-bootstrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section-build-with-bootstrap > .text {
+    background-color: hsl(0, 0%, 11%);
+    padding-top: 150px;
+    text-align: center;
+}
+
+.section-build-with-bootstrap > .text > h1 {
+    color: white;
+}
+
+.section-build-with-bootstrap > .text > .text-paragraph {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.section-build-with-bootstrap > .text > .text-paragraph> h2 {
+    font-size: 20px;
+    color: #919191;
+    width: 850px;
+}
+
+.section-build-with-bootstrap > .text> .text-paragraph > h2 > span {
+    font-size: 20px;
+    color: #64a19d;
+}
+
+.section-build-with-bootstrap > .tablet {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: linear-gradient(180deg, #1c1c1c, #454545);
+    padding: 300px 0 0 0;
+}
+
+.section-build-with-bootstrap > .tablet > img {
+    width: 1140px;
+}
+
+@media (max-width: 599px) {
+    .section-build-with-bootstrap > .text > .text-paragraph {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .section-build-with-bootstrap > .tablet {
+        height: 200px;
+        padding-top: 0;
+    }
+
+    .section-build-with-bootstrap > .tablet > img {
+        width: 70%;
+    }
+
+    .section-build-with-bootstrap > .text > .text-paragraph> h2 {
+        width: auto;
+    }
+}

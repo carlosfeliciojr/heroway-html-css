@@ -1,0 +1,24 @@
+/* class */
+
+.nav {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    color: #cccccc;
+}
+
+.nav > .menu-items > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 599px) {
+    .nav > .menu-items li {
+        list-style-type: none;
+        padding: 10px 5px;
+    }     
+}

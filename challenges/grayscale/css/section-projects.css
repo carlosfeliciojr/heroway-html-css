@@ -1,0 +1,213 @@
+.section-lighter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background: #f8f9fa;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.first-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1140px;
+}
+
+.first-block-img > img {
+    width: 700px;
+}
+
+.first-block > .green-detail {
+    background: #64a19d;
+    width: 10px;
+    height: 170px;
+}
+
+.first-block > .first-block-text > h1 {
+    color: black;
+    padding: 10px 40px;
+}
+
+.first-block > .first-block-text > p {
+    color: #7c7c7d;
+    padding: 10px 40px;
+    width: 300px;
+}
+
+.second-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.second-block > .first-row {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    height: 407px;
+}
+
+.second-block > .first-row > .first-column > img {
+    width: 570px;
+    height: 407px;
+}
+
+.second-block > .first-row > .second-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: black;
+    width: 570px;
+    height: 407px;
+}
+
+.second-block > .first-row > .second-column > .content {
+    padding: 20px;
+}
+
+.second-block > .first-row > .second-column > .content > h1 {
+    color: white;
+}
+
+.second-block > .first-row > .second-column > .content > p {
+    color: #8b8b8b;
+    width: 380px;
+    height: 40px;
+    margin-top: 10px
+}
+
+.second-block > .first-row > .second-column > .content > .green-detail {
+    background: #64a19d;
+    margin-top: 15px;
+    width: 120px;
+    height: 5px;
+}
+
+.second-block > .second-row {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.second-block > .second-row > .first-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background: black;
+    width: 570px;
+    height: 407px;
+}
+
+.second-block > .second-row > .first-column > .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.second-block > .second-row > .first-column > .content > h1 {
+    color: white;
+    align-self: flex-end;
+}
+
+.second-block > .second-row > .first-column > .content > p {
+    align-self: flex-end;
+    text-align: end;
+    color: #8b8b8b;
+    width: 420px;
+    height: 40px;
+    margin-top: 10px
+}
+
+.second-block > .second-row > .first-column > .content > .green-detail {
+    align-self: flex-end;
+    background: #64a19d;
+    margin-top: 35px;
+    width: 120px;
+    height: 5px;
+}
+
+.second-block > .second-row > .second-column > img {
+    width: 570px;
+    height: 407px;
+}
+
+@media (max-width: 599px) {
+    .first-block {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .first-block-img > img {
+        width: 350px;
+    }
+    
+    .first-block > .green-detail {
+        display: none;
+    }
+
+    .second-block > .first-row {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        height: 407px;
+    }
+    .second-block > .first-row > .first-column {
+        height: 202px;
+    }
+
+    .second-block > .first-row > .first-column > img {
+        width: 350px;
+        height: 203px;
+    }
+    
+    .second-block > .first-row > .second-column {
+        flex-direction: column;
+        width: 350px;
+        height: 407px;
+    }
+    
+    .second-block > .first-row > .second-column > .content > p {
+        width: 300px;
+    }
+    
+    .second-block > .second-row {
+        flex-direction: column-reverse;
+    }
+    
+    .second-block > .second-row > .first-column {
+        width: 350px;
+        height: 203px;
+        align-items: center;
+    }
+
+    .second-block > .second-row > .first-column > .content > p {
+        width: 300px;
+    }
+    
+    .second-block > .second-row > .second-column > img {
+        width: 350px;
+        height: 203px;
+    }
+    
+    .second-block > .first-row > .second-column > .content > .green-detail {
+        margin-top: 40px;
+    }    
+
+    .second-block > .second-row > .first-column > .content > .green-detail {
+        margin-top: 60px;
+    }
+    
+    .second-block > .second-row > .second-column {
+        height: 202px;
+    }
+
+}
